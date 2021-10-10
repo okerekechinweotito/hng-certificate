@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper {
+  width: 60em;
+  height: 95vh;
+  margin: auto;
+  background-image: url(./assets//background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+}
+
+.first-col {
+  width: 40px;
+  height: inherit;
+  background: #00aeff;
+}
+
+.second-col {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header {
+  width: 80%;
+  height: 43px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.picture-container {
+  height: 43px;
+  width: 20em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: auto;
+}
+
+.zuri,
+.hng,
+.ingressive {
+  width: 80px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.hng {
+  background-image: url(./assets/hng.png);
+}
+.zuri {
+  background-image: url(./assets/zuri.png);
+}
+.ingressive {
+  background-image: url(./assets/ingressive.png);
+}
+.text {
+  font-size: 15px;
+  white-space: nowrap;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  opacity: 0.5;
+}
+.main {
+  width: 80%;
+  height: 40%;
+  margin-top: 3em;
+}
+.participate {
+  font-size: 36px;
+  line-height: 56px;
+  font-weight: normal;
+}
+
+.name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 43px;
+}
+.period {
+  font-style: normal;
+  font-weight: normal;
+  line-height: 36px;
+}
+.complete {
+  font-size: 24px;
+  color: #00aeff;
+}
+
+.footer {
+  width: 80%;
+  margin-top: 4em;
+}
+.signature {
+  width: 190px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.signature {
+  background-image: url(./assets/Mark\ Essien.png);
+}
